@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+
+</head>
+<body>
+	
+	<div class="my-slide">
+		<div>
+			<img src="https://play-lh.googleusercontent.com/WIQUQM8I1jj_en-WgbNF7r6BYzPe49PN_eZR_r62o-ZjtvbQOyiVRFB80BrC48i3iTQ" style="width: 100%;">
+		</div>
+
+		<div>
+			<img src="https://play-lh.googleusercontent.com/WIQUQM8I1jj_en-WgbNF7r6BYzPe49PN_eZR_r62o-ZjtvbQOyiVRFB80BrC48i3iTQ" style="width: 100%;">
+		</div>
+
+		<div>
+			<img src="https://play-lh.googleusercontent.com/WIQUQM8I1jj_en-WgbNF7r6BYzPe49PN_eZR_r62o-ZjtvbQOyiVRFB80BrC48i3iTQ" style="width: 100%;">
+		</div>
+	</div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+
+<script type="text/javascript">
+$(document).ready(function(){
+	$('.my-slide').slick({
+		  infinite: true,
+		  slidesToShow: 1,
+		  slidesToScroll: 1,
+		  autoplay: true,
+		  autoplaySpeed: 3000,
+		  prevArrow: '<button type="button">Previous bUTTON</button>',
+		  nextArrow: '<button type="button">nEXT bUTTON</button>',
+		  pauseOnFocus: false, 
+		pauseOnHover: false
+		});
+});
+</script>
+</body>
+</html>
